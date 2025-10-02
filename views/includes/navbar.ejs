@@ -45,10 +45,10 @@
         </form>
       </div> -->
       <div class="navbar-nav ms-auto">
-        <a class="nav-link" href="/listings/new">Become a host</a>
+        <a style="color: white !important;" class="btn btn-secondary nav-link active" href="/listings/new">Become a host</a>
         <% if(!currUser){ %>
-          <a class="nav-link active" aria-current="page" href="/signup"><b>Sign up</b></a>
-          <a class="nav-link" href="/login"><b>Log in</b></a>
+          <a style="margin-left: 0.5rem;" class="btn btn-info nav-link active" aria-current="page" href="/signup"><b>Sign up</b></a>
+          <a style="margin-left: 0.5rem;" class="btn btn-info nav-link active" href="/login"><b>Log in</b></a>
           <% } %>
             <% if(currUser){ %>
               <a class="nav-link" href="/logout"><b>Log out</b></a>
